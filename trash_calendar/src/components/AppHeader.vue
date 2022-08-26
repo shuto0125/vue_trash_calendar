@@ -1,29 +1,18 @@
 <template>
-    <div>
-        <h1>{{ title }}</h1>
-        <p>{{ text }}</p>
-    </div>
+  <div class="d-flex justify-content-between align-items-center shadow p-2 mb-3">
+    <h1 class="h4 m-0">{{ title }}</h1>
+    <b-icon-three-dots-vertical></b-icon-three-dots-vertical>
+  </div>
 </template>
 
 <script>
 export default {
-    data(){
-        return {
-            title: "Header",
-            text: "Hello Vue.js!"
-        }
+  data(){
+    return {
+        title: "ゴミの日",
     }
+  }
 }
 </script>
 
-<style scoped>
-div{
-    border: 1px solid blue
-}
-h1{
-    color: blue
-}
-p{
-    color:blue
-}
-</style>
+<style scoped></style>
